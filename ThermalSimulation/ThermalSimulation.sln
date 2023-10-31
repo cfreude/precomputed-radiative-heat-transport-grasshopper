@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermalSimulation", "ThermalSimulation\ThermalSimulation.csproj", "{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		MinSizeRel|Any CPU = MinSizeRel|Any CPU
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		RelWithDebInfo|Any CPU = RelWithDebInfo|Any CPU
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Debug|x64.Build.0 = Debug|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.MinSizeRel|Any CPU.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.MinSizeRel|Any CPU.Build.0 = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.MinSizeRel|x64.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.MinSizeRel|x64.Build.0 = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Release|x64.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.Release|x64.Build.0 = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.RelWithDebInfo|Any CPU.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.RelWithDebInfo|Any CPU.Build.0 = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.RelWithDebInfo|x64.ActiveCfg = Release|Any CPU
+		{62B79170-DAF7-4B91-86FD-14D0C5ACA17D}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {037460AD-5EDF-48C0-BDD1-706CCB6E904A}
+	EndGlobalSection
+EndGlobal
