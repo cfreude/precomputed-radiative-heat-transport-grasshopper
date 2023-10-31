@@ -86,10 +86,10 @@ Erase "$(TargetPath)"</PostBuildEvent>
     <StartAction>Program</StartAction>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>Copy "C:\Users\cfreude\Documents\projects\tamashii\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.dll" "$(TargetDir)"
-Copy "C:\Users\cfreude\Documents\projects\tamashii\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.lib" "$(TargetDir)"
-Copy "C:\Users\cfreude\Documents\projects\tamashii\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.pdb" "$(TargetDir)"
-XCOPY "C:\Users\cfreude\Documents\projects\tamashii\assets\shader\utils\" "$(TargetDir)\assets\shader\utils\" /S /Y
-XCOPY "C:\Users\cfreude\Documents\projects\tamashii\assets\shader\raytracing_thermal\" "$(TargetDir)\assets\shader\raytracing_thermal\" /S /Y</PreBuildEvent>
+    <PreBuildEvent>Copy "$(SolutionDir)\..\..\precomputed-radiative-heat-transport\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.dll" "$(TargetDir)"
+Copy "$(SolutionDir)\..\..\precomputed-radiative-heat-transport\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.lib" "$(TargetDir)"
+Copy "$(SolutionDir)\..\..\precomputed-radiative-heat-transport\_project\src\implementations\thermal_renderer\$(ConfigurationName)\*.pdb" "$(TargetDir)"
+XCOPY "$(SolutionDir)\..\..\precomputed-radiative-heat-transport\assets\shader\utils\" "$(TargetDir)\assets\shader\utils\" /S /Y
+XCOPY "$(SolutionDir)\..\..\precomputed-radiative-heat-transport\assets\shader\raytracing_thermal\" "$(TargetDir)\assets\shader\raytracing_thermal\" /S /Y</PreBuildEvent>
   </PropertyGroup>
 </Project>
